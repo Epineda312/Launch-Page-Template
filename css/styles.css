@@ -1,39 +1,35 @@
 body{
   font-family: "Montserrat";
+  text-align: center;
 }
 
-#title{
-  background-color: #ff4c68;
-  color: #fff;
-}
-
-.container-fluid{
-  padding: 3% 15% 7%;
-}
-
-h1 {
-font-family: "Montserrat";
-font-weight: 900;
-font-size: 4.5rem;
-line-height: 1.5;
-}
-
-h2{
-  font-family: "Montserrat";
-  font-weight: 900;
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-h3{
-  font-family: "Montserrat";
-  font-weight: 900;
-  font-size: 1.5rem;
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat";
 }
 
 p{
-    font-family: "Montserrat-Light";
     color: #8f8f8f;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Headings */
+
+.big-heading{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 4.5rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 /* Navigation Bar */
@@ -56,28 +52,46 @@ p{
   font-family: "Montserrat-Light";
 }
 
-/* Download buttons */
-.download-button{
-  margin: 5% 3% 5% 0;
+/* Title section */
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
 }
 
 /* Title image */
 .title-image{
+  size: 50%;
   width: 60%;
   transform: rotate(25deg);
   position: absolute;
   right: 30%;
 }
 
+/* Download buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+
+
 /* features section */
 #features{
-  padding: 7% 15%;
   background-color: #fff;
   position: relative;
 }
 
+.feature-title{
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
 .feature-box{
-  text-align: center;
   padding: 5%;
 }
 
@@ -92,9 +106,14 @@ p{
 
 /* testimonial section */
 #testimonials{
-  text-align: center;
   background-color: #ef8172;
   color: #fff;
+}
+
+.testimonial-text{
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .testimonial-image{
@@ -103,13 +122,8 @@ p{
   margin: 20px;
 }
 
-.carousel-item{
-  padding: 7% 15%;
-}
-
 #press{
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -122,7 +136,11 @@ p{
 
 #pricing{
   padding: 100px;
-  text-align: center;
+}
+.price-text{
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .pricing-column{
@@ -132,8 +150,6 @@ p{
 #cta{
   background-color: #ff4c68;
   color: #fff;
-  padding: 7% 15%;
-  text-align: center;
 }
 
 .cta-heading{
@@ -145,12 +161,10 @@ p{
 
 /* footer section */
 #footer{
-  padding: 7% 15%;
-  text-align: center;
   background-color: #fff;
 }
 .social-icon{
-  margin: 20px 10px; 
+  margin: 20px 10px;
 }
 
 
